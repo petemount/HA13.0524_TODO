@@ -1,0 +1,13 @@
+* {
+    background-color: #2e282a;
+    color: #FAD8D6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.list2{
+    grid-row-start: auto;
+    grid-row-end:auto;
+    align-items:self-start;
+    justify-items: flex-start;       
+} 
+
