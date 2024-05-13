@@ -4,10 +4,8 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.list2{
-    grid-row-start: auto;
-    grid-row-end:auto;
-    align-items:self-start;
-    justify-items: flex-start;       
-} 
-
+li {
+    display: flex;
+    align-items: center; 
+    gap: 10px; 
+  }

@@ -6,10 +6,11 @@ function addTask(status, task, list) {
   let checkbox = document.createElement("input");
   let text = document.createElement("div");
   let button = document.createElement("button");
+
   checkbox.setAttribute("type", "checkbox");
   checkbox.class = 'check2';
-
   checkbox.checked = status;
+  li.prepend(checkbox)
 
   // Delete-Button
   text.innerHTML = task;
@@ -21,7 +22,7 @@ function addTask(status, task, list) {
 };
 
   
-  li.appendChild(checkbox);
+//  li.appendChild(checkbox);
   li.appendChild(text);
   li.appendChild(button);
 
