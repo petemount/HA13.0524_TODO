@@ -9,3 +9,7 @@ li {
     align-items: center; 
     gap: 10px; 
   }
+
+.delete {
+    background-color: blue;
+}
